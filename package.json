@@ -1,20 +1,14 @@
 {
   "name": "testauth",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
-  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Richard Westmoreland <richard.westmoreland@dronedeploy.com>",
+  "license": "MIT",
   "devDependencies": {
-    "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "lerna": "^4.0.0",
+    "wait-on": "^6.0.1"
+  },
+  "scripts": {
+    "dev": "lerna run dev --parallel"
   }
 }
